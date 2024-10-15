@@ -91,9 +91,11 @@ ul{
     margin: 10px;
 }
 
-@media (max-height: 860px){
+@media (max-width: 550px){
     .container {
+        left: 7%;
+    }
+    .guideWindow{
         left: 10%;
-        right: 20%;
     }
 }
