@@ -93,9 +93,9 @@ ul{
 
 @media (max-width: 550px){
     .container {
-        left: 7%;
+        left: 10%;
     }
     .guideWindow{
-        left: 10%;
+        left: 12%;
     }
 }
