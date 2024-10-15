@@ -1,0 +1,99 @@
+body {
+    background-color: antiquewhite !important;
+}
+
+*{
+    font-family: serif;
+    transition: 1s;
+}
+
+.container{
+    position: absolute;
+    top: 20%;
+    left: 40%;
+}
+
+.recipeCard{
+    height: auto;
+    width: 300px;
+    border: 2px solid rgb(112, 112, 112);
+    border-radius: 15px;
+    transition: 1s;
+    background-color: aliceblue;
+}
+
+.recipeCard:hover{
+    box-shadow: 2px 5px 5px rgb(82, 81, 81);
+} 
+
+.recipeCard h3 {
+    position: relative;
+    top: -16rem;
+    left: 20px;
+}
+
+ul{
+    list-style-type: circle;
+    position: relative;
+    top: -10px;
+}
+
+.recipeImg{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    border-radius: 8px 8px 0 0;
+}
+
+.ingredients{ 
+    max-height: 0;
+    overflow: hidden;
+    margin: 0;
+}
+
+.recipeCard button {
+    width: 90%;
+    margin-bottom: 1rem;
+    position: relative;
+    top: -20px;
+    left: 15px;
+}
+
+.guideWindow{
+    width: 20rem;
+    height: 20rem;
+    background-color: rgb(242, 242, 138);
+    text-align: center;
+    position: fixed;
+    font-size: 20px;
+    font-weight: bolder;
+    top: 20%;
+    left: 40%;
+    z-index: 1;
+    display: none;
+    border-radius: 15px;
+    border: 1px solid rgb(80, 80, 80);
+    transition: 1s;
+}
+
+.guideWindow button {
+    font-size: large;
+    font-weight: bold;
+    transition: 1s;
+    margin-top: 2rem;
+}
+
+.guideWindow p{
+    margin-top:4rem;
+}
+
+.progress{
+    margin: 10px;
+}
+
+@media (max-height: 860px){
+    .container {
+        left: 10%;
+        right: 20%;
+    }
+}
